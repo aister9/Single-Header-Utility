@@ -13,7 +13,7 @@ Customizable file input/output via template specialization
 
 ## 📦 Installation
 Simply include the headers:
-```
+```C++
 #include "3rdParty/TimeChecker.h"
 #include "3rdParty/Logger.h"
 #include "3rdParty/IO.h"
@@ -24,7 +24,7 @@ No additional setup is required.
 
 ### ⏱️ TimeChecker.h
 
-```
+```C++
 #include "3rdParty/TimeChecker.h"
 
 //using Lambda
@@ -37,7 +37,7 @@ std:: cout << "Elapsed Time : << elapsedTimeMS << " ms" << std::endl;
 
 ### 📝 Logger.h
 
-```
+```C++
 #include "3rdParty/Logger.h"
 
 SPIN::Logger log;
@@ -69,7 +69,7 @@ logOut.close();
 ### 📂 IO.h
 
 
-```
+```C++
 #include "3rdParty/IO.h"
 
 //your file io code
