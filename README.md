@@ -1,8 +1,28 @@
 # Single-Header-Utility
 
-## USAGE EXAMPLE
+A lightweight header-only utility library for common tasks such as timing, logging, and file I/O.
+No build or linking required — just include and use.
 
-### TimeChecker.h
+### 🚀 Features
+- ⏱️ TimeChecker  
+Measure execution time using simple lambda-based API
+- 📝 Logger  
+Structured logging (CSV format) with variant-type support
+- 📂 IO  
+Customizable file input/output via template specialization
+
+## 📦 Installation
+Simply include the headers:
+```
+#include "3rdParty/TimeChecker.h"
+#include "3rdParty/Logger.h"
+#include "3rdParty/IO.h"
+```
+No additional setup is required.
+
+## 🛠️ USAGE EXAMPLE
+
+### ⏱️ TimeChecker.h
 
 ```
 #include "3rdParty/TimeChecker.h"
@@ -15,7 +35,7 @@ auto elapsedTimeMS = SPIN::TimeCheck([&]{
 std:: cout << "Elapsed Time : << elapsedTimeMS << " ms" << std::endl;
 ```
 
-### Logger.h
+### 📝 Logger.h
 
 ```
 #include "3rdParty/Logger.h"
@@ -46,7 +66,7 @@ else {
 logOut.close();
 ```
 
-### IO.h
+### 📂 IO.h
 
 
 ```
